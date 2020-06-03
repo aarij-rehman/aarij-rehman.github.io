@@ -23,6 +23,9 @@ a:hover {
 #current {
     color: orange;
 }
+#project {
+    color: blue;
+}
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -53,6 +56,9 @@ footer {
 .project-container img:hover{
     opacity: 0.6;
 }
+.project {
+    margin-bottom: 15vh;
+}
 .project-header{
     font-size: 1.5em;
 }
@@ -66,4 +72,14 @@ footer {
 /* Contact */
 .email {
     font-weight: 700;
+}
+
+/* Projects */
+.project-img {
+    height: 60vh;
+    width: 100vw;
+}
+
+.paragraph {
+    text-indent: 50px;
 }
