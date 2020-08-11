@@ -75,11 +75,17 @@ footer {
 }
 
 /* Projects */
-.project-img {
-    height: 60vh;
-    width: 100vw;
+.project img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 1;
+    transition: 0.3s;
 }
-
+.project img:hover{
+    opacity: 0.6;
+}
 .paragraph {
     text-indent: 50px;
 }
